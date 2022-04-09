@@ -6,3 +6,4 @@ Mini projects built with HTML, CSS and JavaScript
 | 01 | [Dice Game](./dice-game/) |
 | 02 | [Drum Kit](./drum-kit/) |
 | 03 | [Simon Game](./simon-game/) |
+| 04 | [BMI Calculator](./bmi-calculator/) |

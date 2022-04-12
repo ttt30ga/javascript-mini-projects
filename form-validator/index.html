@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validator</title>
+</head>
+<body>
+    <div class="container center">
+        <form action="/" method="get" class="form" novalidate>
+            <h1>Sign up</h1>
+
+            <div class="form-block">
+                <label for="inputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control default" id="inputEmail">
+                <p id="help" class="form-help">Your data is safe with us.</p>
+            </div>
+
+            <div class="form-block">
+                <label for="inputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control default" id="inputPassword1">
+                <p id="help" class="form-help">Password must be at least 8 characters.</p>
+            </div>
+
+            <div class="form-block">
+                <label for="inputPassword2" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control default" id="inputPassword2">
+                <p id="help" class="form-help"></p>
+            </div>
+            
+            <button type="submit" class="btn-primary submit">Submit</button>
+        </form>
+    </div>
+    <script defer src="index.js"></script>
+</body>
+</html>

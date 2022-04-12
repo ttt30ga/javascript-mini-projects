@@ -1,0 +1,119 @@
+:root {
+    --col-bg: rgb(242, 245, 247);
+    --col-main: rgb(16, 19, 20);
+    --col-input: rgb(216, 224, 231);
+    --col-help: rgb(146, 161, 176);
+    --col-error: rgb(229, 0, 65);
+    --col-success: rgb(0, 222, 96);
+    --col-btn-primary: rgb(84, 0, 180);
+    --col-btn-primary-hover: rgb(98, 23, 184);
+    --col-btn-primary-active: rgb(114, 56, 180);
+    --font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+html {
+    background-color: var(--col-bg);
+    color: var(--col-main);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0rem 4rem rgb(16, 19, 20, 0.1);
+    padding: 3rem;
+    width: 400px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    margin: 1.6rem 0;
+}
+
+.form-block:first-child, .form-block:last-child {
+    margin: 0;
+}
+
+.form-block label,
+.form-block input,
+.form-block .form-help {
+    margin: 0.2rem 0;
+} 
+
+.form-block label {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.form-block input {
+    padding: 1rem;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem; 
+    -moz-border-radius: 0.8rem;
+}
+
+.form-block p {
+    height: 1rem;
+}
+
+.form-block .form-help {
+    color: var(--col-help);
+    font-size: 0.8rem;
+}
+
+.form-block input.default {
+    border: 1px solid var(--col-input);
+}
+
+.form-help.error {
+    color: var(--col-error);
+}
+
+button {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--col-btn-primary);
+    color: white;
+}
+
+.btn-primary.success, .btn-primary.success:hover, .btn-primary.success:active {
+    background-color: var(--col-success);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--col-btn-primary-hover);
+    color: white;
+}
+
+.btn-primary:active {
+    background-color: var(--col-btn-primary-active);
+    color: white;
+}

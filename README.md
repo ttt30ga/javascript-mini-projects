@@ -8,3 +8,4 @@ Mini projects built with HTML, CSS and JavaScript
 | 03 | [Simon Game](./simon-game/) |
 | 04 | [BMI Calculator](./bmi-calculator/) |
 | 05 | [Calculator](./calculator/) |
+| 06 | [Form Validator](./form-validator/) |

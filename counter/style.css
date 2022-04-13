@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+:root {
+    --col-bg-1: #d0e4c9;
+    --col-bg-2: #82c3c6;
+    --col-bg-3: #5776a2;
+    --col-light: #f5fff5;
+    --col-btn: #ffab51;
+    --col-btn-hover: #fd9b32;
+    --col-btn-active: #ff8e15;
+    --col-red: #ff3752;
+    --col-green: #00c55c;
+    --ff: 'Secular One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff)
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: linear-gradient(var(--col-bg-1), var(--col-bg-2), var(--col-bg-3));
+    color: var(--col-light);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--col-bg-3);
+    margin: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.counter {
+    color: var(--col-light);
+    font-size: 12rem;
+    font-weight: 300;
+}
+
+.btn {
+    font-size: 2rem;
+    border-radius: 1.4rem;
+    border: none;
+    padding: 0.4rem 1.6rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    margin: 0.4rem;
+    background-color: var(--col-btn);
+    color: var(--col-light);
+}
+
+.btn-primary:hover {
+    background-color: var(--col-btn-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--col-btn-active);
+    color: var(--col-dark);
+}
+
+.red {
+    color: var(--col-red);   
+}
+
+.green {
+    color: var(--col-green);   
+}

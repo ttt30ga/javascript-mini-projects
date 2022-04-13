@@ -4,10 +4,11 @@ Mini projects built with HTML, CSS and JavaScript
 | #  | Project |
 | -- | ------- |
 | 01 | [Clock](./clock/) |
-| 02 | [Color Flip](./color-flip/) |
-| 03 | [Dice Game](./dice-game/) |
-| 04 | [BMI Calculator](./bmi-calculator/) |
-| 05 | [Drum Kit](./drum-kit/) |
-| 06 | [Simon Game](./simon-game/) |
-| 07 | [Calculator](./calculator/) |
-| 08 | [Form Validator](./form-validator/) |
+| 02 | [Counter](./counter/) |
+| 03 | [Color Flip](./color-flip/) |
+| 04 | [Dice Game](./dice-game/) |
+| 05 | [BMI Calculator](./bmi-calculator/) |
+| 06 | [Drum Kit](./drum-kit/) |
+| 07 | [Simon Game](./simon-game/) |
+| 08 | [Calculator](./calculator/) |
+| 09 | [Form Validator](./form-validator/) |

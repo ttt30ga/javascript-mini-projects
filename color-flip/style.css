@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,500;1,700&display=swap');
+
+:root {
+    /* CSS HSL */
+    --col-dark: rgba(0, 0, 0, 1);
+    --col-light: rgba(255, 255, 255, 1);
+    --col-btn-hover: rgb(140, 140, 140);
+    --col-btn-active:rgb(100, 100, 100);
+    --ff: 'Azeret Mono', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ff)
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--col-light);
+    color: var(--col-dark);
+}
+
+h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    background: inherit;
+    background-clip: text;
+    color: transparent;
+    filter: invert(1);
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.result {
+    background-color: var(--col-dark);
+    color: var(--col-light);
+    font-size: 5rem;
+    border-radius: 2rem;
+    padding: 1.4rem 3rem;
+    margin: 2rem;
+    opacity: 0.6;
+}
+
+.btn {
+    font-size: 3rem;
+    border-radius: 10rem;
+    border: none;
+    padding: 0.8rem 1.4rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border: 4px solid var(--col-dark);
+    background-color: var(--col-light);
+    color: var(--col-dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--col-btn-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--col-btn-active);
+}
+
+.btn-primary:hover, .btn-primary:active {
+    border: 4px solid var(--col-light);
+    color: var(--col-light);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

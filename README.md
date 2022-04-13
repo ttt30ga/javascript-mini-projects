@@ -9,3 +9,4 @@ Mini projects built with HTML, CSS and JavaScript
 | 04 | [BMI Calculator](./bmi-calculator/) |
 | 05 | [Calculator](./calculator/) |
 | 06 | [Form Validator](./form-validator/) |
+| 07 | [Color Flip](./color-flip/) |

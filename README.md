@@ -10,5 +10,6 @@ Mini projects built with HTML, CSS and JavaScript
 | 05 | [BMI Calculator](./bmi-calculator/) |
 | 06 | [Drum Kit](./drum-kit/) |
 | 07 | [Simon Game](./simon-game/) |
-| 08 | [Calculator](./calculator/) |
-| 09 | [Form Validator](./form-validator/) |
+| 08 | [Cards](./cards/) |
+| 09 | [Calculator](./calculator/) |
+| 10 | [Form Validator](./form-validator/) |

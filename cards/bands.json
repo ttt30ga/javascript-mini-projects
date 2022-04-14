@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Infinix",
+        "genre": "Punk",
+        "bio": "Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.",
+        "location": "London",
+        "image": "./images/01.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Supra",
+        "genre": "Hardcore",
+        "bio": "Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.",
+        "location": "New York",
+        "image": "./images/02.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Hidden",
+        "genre": "Noise",
+        "bio": "Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.",
+        "location": "Detroit",
+        "image": "./images/03.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Chillers",
+        "genre": "No Wave",
+        "bio": "Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.",
+        "location": "Los Angeles",
+        "image": "./images/04.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Se7en Sly",
+        "genre": "Hardcore",
+        "bio": "Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.",
+        "location": "Birmingham",
+        "image": "./images/05.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Anti X",
+        "genre": "Punk",
+        "bio": "Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.",
+        "location": "Nottingham",
+        "image": "./images/06.jpg"
+    }
+]
